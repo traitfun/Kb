@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KIDANGBANG Village Portal — Portal Resmi Pemerintah Desa</title>
+  <meta name="description" content="Layanan, komunikasi, dan kolaborasi untuk Desa Kidangbang yang lebih maju.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body class="page page--home">
+
+  <a class="skip-link" href="#portal-utama">Lewati ke konten utama</a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="site-header__inner">
+
+      <a class="brand" href="home.html" aria-label="KIDANGBANG Village Portal, ke beranda">
+        <img class="brand__logo" src="assets/images/logo-kidangbang.webp" alt="Lambang Desa Kidangbang" width="40" height="40">
+        <span class="brand__text">
+          <span class="brand__name">KIDANGBANG</span>
+          <span class="brand__subtitle">VILLAGE PORTAL</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="home.html" aria-current="page">Home</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="rapat.html">Rapat</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="k-so.html">K-SO</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="pelayanan.html">Pelayanan</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="perangkat.html">Perangkat</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-tools">
+        <form class="search-form" role="search">
+          <label class="visually-hidden" for="portal-search">Cari di portal</label>
+          <input class="search-form__input" type="search" id="portal-search" name="q" placeholder="Cari di portal...">
+        </form>
+
+        <div class="profile">
+          <img class="profile__avatar" src="assets/images/avatar-placeholder.webp" alt="Foto profil Budi Santoso" width="36" height="36">
+          <div class="profile__info">
+            <span class="profile__name">Budi Santoso</span>
+            <span class="profile__role">Sekretaris Desa</span>
+          </div>
+          <button class="profile__trigger" type="button" aria-label="Buka menu profil" aria-haspopup="menu" aria-expanded="false">
+            <span aria-hidden="true">▾</span>
+          </button>
+        </div>
+
+        <button class="app-menu-button" type="button" aria-label="Buka menu aplikasi" aria-haspopup="menu" aria-expanded="false">
+          <span aria-hidden="true">⋮⋮</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="site-main">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+
+      <div class="hero__content">
+        <p class="hero__label">PORTAL RESMI PEMERINTAH DESA</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__title-line">DESA</span>
+          <span class="hero__title-line hero__title-line--brand">KIDANGBANG</span>
+        </h1>
+        <p class="hero__tagline">
+          <span class="hero__tagline-line">SATU DESA</span>
+          <span class="hero__tagline-line">SATU TUJUAN</span>
+        </p>
+        <p class="hero__description">Layanan, komunikasi, dan kolaborasi untuk Desa Kidangbang yang lebih maju.</p>
+        <a class="button button--primary hero__cta" href="#portal-utama">JELAJAHI PORTAL <span aria-hidden="true">→</span></a>
+        <a class="hero__scroll" href="#portal-utama" aria-label="Gulir ke konten portal">
+          <span class="hero__scroll-label">SCROLL</span>
+          <span class="hero__scroll-line" aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <figure class="hero__visual">
+        <!-- Asset to be supplied: realistic silver-white kijang in a bright Indonesian village landscape -->
+        <img class="hero__image" src="assets/images/kidang-silver-hero.webp"
+             alt="Kijang berbulu perak-putih dengan tanduk besar berdiri anggun di lanskap desa Indonesia dengan pegunungan, sawah hijau, air, dan rumah joglo"
+             width="1600" height="1000">
+        <figcaption class="hero__caption">
+          <span class="hero__caption-label">FIG. 01</span>
+          <span class="hero__caption-text">KIJANG — IDENTITAS DESA KIDANGBANG</span>
+        </figcaption>
+      </figure>
+
+      <aside class="hero__panel info-panel" aria-label="Informasi hari ini">
+        <dl class="info-panel__meta">
+          <div class="info-panel__row">
+            <dt class="info-panel__term">Tanggal</dt>
+            <dd class="info-panel__value">[Tanggal — placeholder]</dd>
+          </div>
+          <div class="info-panel__row">
+            <dt class="info-panel__term">Waktu</dt>
+            <dd class="info-panel__value">[00:00 WIB — placeholder]</dd>
+          </div>
+          <div class="info-panel__row">
+            <dt class="info-panel__term">Cuaca</dt>
+            <dd class="info-panel__value">[Info cuaca — placeholder]</dd>
+          </div>
+        </dl>
+        <h2 class="info-panel__title">Nilai Desa</h2>
+        <ul class="info-panel__values">
+          <li class="info-panel__value-item">LAYANAN</li>
+          <li class="info-panel__value-item">KOMUNIKASI</li>
+          <li class="info-panel__value-item">KOLABORASI</li>
+          <li class="info-panel__value-item">TRANSPARANSI</li>
+        </ul>
+      </aside>
+
+    </section>
+
+    <!-- ===== HERO INFORMATION STRIP ===== -->
+    <section class="info-strip" aria-label="Ringkasan desa">
+      <ol class="info-strip__list">
+        <li class="info-strip__item">
+          <span class="info-strip__number">01</span>
+          <h2 class="info-strip__title">DESA KIDANGBANG</h2>
+          <p class="info-strip__text">Kecamatan [placeholder], Kabupaten [placeholder]</p>
+        </li>
+        <li class="info-strip__item">
+          <span class="info-strip__number">02</span>
+          <h2 class="info-strip__title">LAYANAN PUBLIK</h2>
+          <p class="info-strip__text">Mudah, cepat, dan terbuka</p>
+        </li>
+        <li class="info-strip__item">
+          <span class="info-strip__number">03</span>
+          <h2 class="info-strip__title">KOLABORASI WARGA</h2>
+          <p class="info-strip__text">Bergerak bersama membangun desa</p>
+        </li>
+        <li class="info-strip__item">
+          <span class="info-strip__number">04</span>
+          <h2 class="info-strip__title">DESA LEBIH MAJU</h2>
+          <p class="info-strip__text">Menuju desa mandiri dan berdaya</p>
+        </li>
+      </ol>
+      <div class="info-strip__progress" role="presentation">
+        <span class="info-strip__progress-track"><span class="info-strip__progress-bar"></span></span>
+        <span class="info-strip__progress-label">01 / 04</span>
+      </div>
+    </section>
+
+    <!-- ===== MAIN PORTAL CONTENT ===== -->
+    <div class="portal" id="portal-utama">
+
+      <!-- Quick access cards -->
+      <section class="quick-access" aria-labelledby="quick-access-title">
+        <h2 class="visually-hidden" id="quick-access-title">Akses Cepat</h2>
+        <ul class="quick-access__list">
+          <li class="quick-card">
+            <a class="quick-card__link" href="rapat.html">
+              <span class="quick-card__number">01</span>
+              <img class="quick-card__image" src="assets/images/card-rapat.webp" alt="Suasana rapat perangkat desa" width="400" height="260">
+              <h3 class="quick-card__title">Rapat</h3>
+              <p class="quick-card__text">Lihat agenda dan hasil rapat desa.</p>
+              <span class="quick-card__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li class="quick-card">
+            <a class="quick-card__link" href="k-so.html">
+              <span class="quick-card__number">02</span>
+              <img class="quick-card__image" src="assets/images/card-k-so.webp" alt="Warga berbagi informasi dan kegiatan desa" width="400" height="260">
+              <h3 class="quick-card__title">K-SO</h3>
+              <p class="quick-card__text">Berbagi informasi dan kegiatan.</p>
+              <span class="quick-card__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li class="quick-card">
+            <a class="quick-card__link" href="pelayanan.html">
+              <span class="quick-card__number">03</span>
+              <img class="quick-card__image" src="assets/images/card-pelayanan.webp" alt="Petugas desa melayani surat dan administrasi" width="400" height="260">
+              <h3 class="quick-card__title">Pelayanan</h3>
+              <p class="quick-card__text">Layanan surat dan administrasi.</p>
+              <span class="quick-card__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li class="quick-card">
+            <a class="quick-card__link" href="perangkat.html">
+              <span class="quick-card__number">04</span>
+              <img class="quick-card__image" src="assets/images/card-perangkat.webp" alt="Perangkat Desa Kidangbang" width="400" height="260">
+              <h3 class="quick-card__title">Perangkat</h3>
+              <p class="quick-card__text">Data dan profil perangkat desa.</p>
+              <span class="quick-card__arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Three-column information area -->
+      <div class="info-area">
+
+        <!-- Column 1: News -->
+        <section class="info-column info-column--news" aria-labelledby="news-title">
+          <header class="section-heading">
+            <h2 class="section-heading__title" id="news-title">Berita Terbaru</h2>
+            <a class="section-heading__link" href="k-so.html">Lihat Semua</a>
+          </header>
+
+          <!-- SAMPLE CONTENT: all news below is fictional, for layout demonstration only -->
+          <article class="news-featured">
+            <a class="news-featured__link" href="k-so.html">
+              <img class="news-featured__image" src="assets/images/news-featured.webp" alt="Ilustrasi berita utama kegiatan desa (contoh)" width="640" height="380">
+              <p class="news-featured__meta">
+                <span class="news-featured__category">KEGIATAN</span>
+                <time class="news-featured__date" datetime="2025-01-01">[Tanggal contoh]</time>
+              </p>
+              <h3 class="news-featured__title">[Contoh] Judul berita utama kegiatan desa</h3>
+              <p class="news-featured__excerpt">[Contoh] Ringkasan singkat berita utama sebagai gambaran tata letak konten.</p>
+            </a>
+          </article>
+
+          <ul class="news-list">
+            <li class="news-item">
+              <a class="news-item__link" href="k-so.html">
+                <img class="news-item__image" src="assets/images/news-02.webp" alt="Ilustrasi berita 2 (contoh)" width="120" height="90">
+                <div class="news-item__body">
+                  <h3 class="news-item__title">[Contoh] Judul berita kedua</h3>
+                  <time class="news-item__date" datetime="2025-01-01">[Tanggal contoh]</time>
+                </div>
+              </a>
+            </li>
+            <li class="news-item">
+              <a class="news-item__link" href="k-so.html">
+                <img class="news-item__image" src="assets/images/news-03.webp" alt="Ilustrasi berita 3 (contoh)" width="120" height="90">
+                <div class="news-item__body">
+                  <h3 class="news-item__title">[Contoh] Judul berita ketiga</h3>
+                  <time class="news-item__date" datetime="2025-01-01">[Tanggal contoh]</time>
+                </div>
+              </a>
+            </li>
+            <li class="news-item">
+              <a class="news-item__link" href="k-so.html">
+                <img class="news-item__image" src="assets/images/news-04.webp" alt="Ilustrasi berita 4 (contoh)" width="120" height="90">
+                <div class="news-item__body">
+                  <h3 class="news-item__title">[Contoh] Judul berita keempat</h3>
+                  <time class="news-item__date" datetime="2025-01-01">[Tanggal contoh]</time>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Column 2: Meeting agenda -->
+        <section class="info-column info-column--agenda" aria-labelledby="agenda-title">
+          <header class="section-heading">
+            <h2 class="section-heading__title" id="agenda-title">Agenda Rapat Mendatang</h2>
+            <a class="section-heading__link" href="rapat.html">Lihat Semua</a>
+          </header>
+
+          <!-- SAMPLE DATA: not actual scheduled meetings -->
+          <ul class="agenda-list">
+            <li class="agenda-item">
+              <time class="agenda-item__date" datetime="2025-01-01">
+                <span class="agenda-item__day">00</span>
+                <span class="agenda-item__month">BLN</span>
+              </time>
+              <div class="agenda-item__body">
+                <h3 class="agenda-item__title">[Contoh] Rapat koordinasi perangkat desa</h3>
+                <p class="agenda-item__detail"><span class="agenda-item__time">00.00 WIB</span> · <span class="agenda-item__location">[Lokasi contoh]</span></p>
+              </div>
+              <span class="status-label status-label--upcoming">Mendatang</span>
+            </li>
+            <li class="agenda-item">
+              <time class="agenda-item__date" datetime="2025-01-01">
+                <span class="agenda-item__day">00</span>
+                <span class="agenda-item__month">BLN</span>
+              </time>
+              <div class="agenda-item__body">
+                <h3 class="agenda-item__title">[Contoh] Musyawarah dusun</h3>
+                <p class="agenda-item__detail"><span class="agenda-item__time">00.00 WIB</span> · <span class="agenda-item__location">[Lokasi contoh]</span></p>
+              </div>
+              <span class="status-label status-label--planned">Direncanakan</span>
+            </li>
+            <li class="agenda-item">
+              <time class="agenda-item__date" datetime="2025-01-01">
+                <span class="agenda-item__day">00</span>
+                <span class="agenda-item__month">BLN</span>
+              </time>
+              <div class="agenda-item__body">
+                <h3 class="agenda-item__title">[Contoh] Evaluasi program desa</h3>
+                <p class="agenda-item__detail"><span class="agenda-item__time">00.00 WIB</span> · <span class="agenda-item__location">[Lokasi contoh]</span></p>
+              </div>
+              <span class="status-label status-label--upcoming">Mendatang</span>
+            </li>
+            <li class="agenda-item">
+              <time class="agenda-item__date" datetime="2025-01-01">
+                <span class="agenda-item__day">00</span>
+                <span class="agenda-item__month">BLN</span>
+              </time>
+              <div class="agenda-item__body">
+                <h3 class="agenda-item__title">[Contoh] Pembahasan anggaran desa</h3>
+                <p class="agenda-item__detail"><span class="agenda-item__time">00.00 WIB</span> · <span class="agenda-item__location">[Lokasi contoh]</span></p>
+              </div>
+              <span class="status-label status-label--planned">Direncanakan</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Column 3: Statistics and popular services -->
+        <div class="info-column info-column--side">
+
+          <section class="stats" aria-labelledby="stats-title">
+            <header class="section-heading">
+              <h2 class="section-heading__title" id="stats-title">Statistik Desa</h2>
+              <span class="section-heading__note">Data contoh</span>
+            </header>
+            <!-- PLACEHOLDER VALUES: not verified village statistics -->
+            <dl class="stats__list">
+              <div class="stats__item">
+                <dt class="stats__label">Penduduk</dt>
+                <dd class="stats__value">[000]</dd>
+              </div>
+              <div class="stats__item">
+                <dt class="stats__label">Kepala Keluarga</dt>
+                <dd class="stats__value">[000]</dd>
+              </div>
+              <div class="stats__item">
+                <dt class="stats__label">Dusun</dt>
+                <dd class="stats__value">[0]</dd>
+              </div>
+              <div class="stats__item">
+                <dt class="stats__label">Perangkat Desa</dt>
+                <dd class="stats__value">[00]</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="popular-services" aria-labelledby="services-title">
+            <header class="section-heading">
+              <h2 class="section-heading__title" id="services-title">Layanan Populer</h2>
+            </header>
+            <ul class="popular-services__list">
+              <li class="service-link"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Surat Keterangan Usaha (SKU)</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+              <li class="service-link"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Surat Keterangan Catatan Kepolisian</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+              <li class="service-link"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Surat Keterangan Domisili</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+              <li class="service-link"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Surat Keterangan Belum Kawin</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+              <li class="service-link"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Surat Keterangan Kematian</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+              <li class="service-link service-link--more"><a class="service-link__anchor" href="pelayanan.html"><span class="service-link__label">Layanan Lainnya</span><span class="service-link__arrow" aria-hidden="true">→</span></a></li>
+            </ul>
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+
+      <div class="site-footer__brand">
+        <p class="site-footer__name">KIDANGBANG</p>
+        <p class="site-footer__description">Portal desa untuk layanan, komunikasi, dan kolaborasi warga serta pemerintah Desa Kidangbang.</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Navigasi footer">
+        <h2 class="site-footer__heading">Halaman</h2>
+        <ul class="site-footer__links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="rapat.html">Rapat</a></li>
+          <li><a href="k-so.html">K-SO</a></li>
+          <li><a href="pelayanan.html">Pelayanan</a></li>
+          <li><a href="perangkat.html">Perangkat</a></li>
+        </ul>
+      </nav>
+
+      <address class="site-footer__contact">
+        <h2 class="site-footer__heading">Kontak Resmi</h2>
+        <p>[Alamat kantor desa — placeholder]</p>
+        <p>[Kontak resmi — placeholder]</p>
+      </address>
+
+    </div>
+    <p class="site-footer__copyright">© [Tahun] Pemerintah Desa Kidangbang. Seluruh hak dilindungi.</p>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/home.js" defer></script>
+
+</body>
+</html>
